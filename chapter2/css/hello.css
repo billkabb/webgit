@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+p,li{
+    color: white;
+    background-color: brown;
+}
+li{
+    list-style-type: circle;
+}

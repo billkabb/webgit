@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+}
+/* style sto class */
+.aueb-logo{
+    width: 800px;
+    height: auto;
+}
+#auebText {
+    /* edw einai style sto tag alla den to xrhsimopoioume synhthws */
+}
+
+.aueb-text-p{
+    color: white;
+    background-color: black;
+    width: 800px;
+}
+h3.aueb-text-p{
+    color: red;
+    /* background-color: gold; */
+    width: 800px;
+}

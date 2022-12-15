@@ -1,0 +1,14 @@
+/* epilegei ta li tou ul */
+ul > li {
+    color: blue;
+}
+/* epilegei ta strong toy ul */
+ul strong{
+    background-color: gray;
+}
+ul em{
+    background-color: gainsboro;
+}
+h1 + p{
+    background-color: aquamarine;
+}

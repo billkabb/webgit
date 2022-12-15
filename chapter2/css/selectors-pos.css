@@ -1,0 +1,27 @@
+img{
+    width: 500px;
+    height: auto;
+}
+/*not visited*/
+ul a:link{
+    color: black;
+}
+/*olo to link*/
+ul a{
+    color: brown;
+}
+ul > li{
+    border: 1px solid black;
+}
+ul > li:first-child{
+    color: red;
+}
+ul>li:not(:first-child){
+    list-style: square;
+}
+h1 +p{
+    font-size: 21px;
+}
+img~h1{
+    font-size: 3rem;
+}

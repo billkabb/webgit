@@ -1,0 +1,30 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    border: 1px solid black;
+}
+.aueb-img{
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+}
+.nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 80px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 5px;
+    font-size: 1.2rem;
+}
+.nav a:hover{
+    color: green;
+}

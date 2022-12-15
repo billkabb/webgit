@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+/* prints gray to save printer ink */
+@media print{
+    body{
+        background-color: gray;
+    }
+}

@@ -1,0 +1,84 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    border-radius: 4px;
+    width: 30%;
+    margin: 10% auto;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(100, 149, 237);
+    
+}
+.login-form{
+    background-color: white;
+    /* margin: 20px; */
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px;
+}
+.login-form > h2{
+    color: rgb(140, 137, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+#email{
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 244, 244);
+    border: none;
+    width: 90%;
+    /* height: 30px; */
+    padding: 10px 5px;
+    font-size: medium;
+    color: rgb(140, 137, 138,);
+    
+}
+#email::placeholder{
+    opacity: 0.5;
+}
+#pwd{
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 244, 244);
+    border: none;
+    width: 90%;
+    /* height: 30px; */
+    padding: 10px 5px;
+    margin-top: 15px;
+    font-size: medium;
+    color: rgb(140, 137, 138,);
+}
+#pwd::placeholder{
+    opacity: 0.5;
+}
+#submit{
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    background-color: rgb(100, 149, 237);
+    color: white;
+    border: none;
+    width: 93%;
+    margin-top: 15px;
+    padding: 10px 5px;
+}
+#link{
+    color: rgb(140, 137, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#link:hover{
+    color: rebeccapurple;
+}
+.signup{
+    color: white;
+}
+.signup>a{
+    color: white;
+}
+.signup>a:hover{
+    color: rebeccapurple;
+}
+

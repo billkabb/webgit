@@ -1,0 +1,13 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transition:  1s ease-in;
+    transform-origin: left top ;
+}
+.box1:hover{
+    /* transform: scale(3); */
+    /* transform: rotate(80deg); */
+    /* transform: translate(0,400px); */
+    transform: skew(20deg);
+}

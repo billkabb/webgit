@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Φόρμα Πληρωμής</h1>
+    <p>Τα υποχρεωτικά πεδία ακολουθούνται απο &nbsp;<abbr title="Required field">*</abbr></p>
+    <h2>Προσωπικά Στοιχεία</h2>
+    <form action="">
+        <div>
+            <fieldset style="width: 150px;">
+                <legend>Τίτλος</legend>
+                <div>
+                    <input type="radio" name="title" id="mr" value="mr" >
+                    <label for="title">Mr.</label>
+                </div>
+                <div>
+                    <input type="radio" name="title" id="mrs" value="mrs">
+                    <label for="female">Mrs.</label>
+                </div>
+                <div>
+                    <input type="radio" name="title" id="dr" value="dr">
+                    <label for="female">Dr.</label>
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <label for="name">Name: &nbsp;<abbr title="Required field">*</abbr></label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="e-mail">E-mail: &nbsp;<abbr title="Required field">*</abbr></label>
+            <input type="email" name="e-mail" id="e-mail" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: &nbsp;<abbr title="Required field">*</abbr></label>
+            <input type="password" name="password" id="password" required>
+        </div>
+    <!-- </form> -->
+    <h2>Πληροφορίες Πληρωμής</h2>
+    <!-- <form action=""> -->
+        <div>
+            <!-- combo box -->
+            <label for="card-type">Card Type: </label>
+            <select name="card-type" id="card-type">
+                <option value="1">Visa</option>
+                <option value="2">Mastercard</option>
+                <option value="3">Debit</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="card-number">Card Number: &nbsp;<abbr title="Required field">*</abbr></label>
+            <input type="text" name="card-number" id="card-number" inputmode="numeric" required
+            pattern="^[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}$" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
+        <br>
+        <div>
+            <label for="expiration-date">Expiration Date: &nbsp;<abbr title="Required field">*</abbr></label>
+            <input type="text" id="expiration-date" placeholder="MM/YY" required
+            pattern="^[0-1][1-12]\/[0-9][0-9]$" maxlength="5">
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="submit" value="Προχωρήστε στην Πληρωμή.">
+        </div>
+    </form>
+    
+</body>
+</html>
